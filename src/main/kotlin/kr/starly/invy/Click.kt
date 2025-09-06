@@ -6,5 +6,5 @@ import org.bukkit.event.inventory.ClickType
 class Click(
     val player: Player,
     val clickType: ClickType,
-    val hotbatButton: Int = -1
+    val hotbarButton: Int = -1
 )
